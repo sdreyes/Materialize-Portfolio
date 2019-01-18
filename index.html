@@ -5,10 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Shelby Reyes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Materialize Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- jQuery uncompressed -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <!-- Bootstrap complete CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Materialize compiled and minified CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <!-- Materialize icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Materialize compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </head>
 <body>
-    
+    <nav class="light-green darken-1">
+        <div class="nav-wrapper">
+            <a data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="jumbotron">
+        <div class="container">
+            <div class="row valign-wrapper">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <img class="circle responsive-img" src="assets/images/shelbyreyes.jpg" alt="A picture of Shelby">
+                </div>
+                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                    <h3>Hi, I'm Shelby.</h3>
+                    <h5>I'm a full-stack web developer living in the Philly 'burbs.</h5>
+                    <h5>I have a passion for creating beautiful web applications with clean, readable code.</h5>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="assets/javascript/script.js"></script>
 </body>
 </html>
